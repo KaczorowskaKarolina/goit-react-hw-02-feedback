@@ -9,12 +9,12 @@
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-    background-color: white;
-    border-radius: 8px;
-    border-color: lightgrey;
+    background-color: rgb(241, 176, 215);
+    border-radius: 5px;
+    border-color: rgb(199, 23, 234);
 }
 
 .button:hover {
-    background-color: rgb(57, 120, 191);
+    background-color: rgb(246, 60, 125);
     cursor: pointer;
 }
