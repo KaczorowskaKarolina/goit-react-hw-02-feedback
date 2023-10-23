@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Section } from './Section';
-import { FeedbackOptions } from './FeedbackOptions.jsx';
+import { Feedback } from './Feedback';
 import { Statistics } from './Statistics';
 import { Notification } from './Notification';
 
@@ -34,7 +34,7 @@ export class App extends Component {
     return (
       <>
         <Section title="Please leave feedback">
-          <FeedbackOptions onLeaveFeedback={this.handleClick} />
+          <Feedback onLeaveFeedback={this.handleClick} />
         </Section>
         <Section title="Statistics">
           {total === 0 ? (
